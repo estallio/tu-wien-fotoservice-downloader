@@ -1,0 +1,16 @@
+{
+  "name": "tu-wien-fotoservice-downloader",
+  "version": "1.0.0",
+  "description": "Downloads thumbnail images with watermarks in low resolution from a gallery of the TU Wien Fotoservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node downloader.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^8.0.0",
+    "puppeteer": "^15.3.2"
+  }
+}
